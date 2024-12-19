@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMLAR</title>
+</head>
+<body>
+    
+<!-- <form action="https://www.google.com/search" method="post"> -->
+    <form action="https://formsubmit.co/alican1050@gmail.com" method="POST">
+    <label for="first_name">İsim</label>
+<input style="margin-left: 35px;" type="text" id="first_name" name="first_name" required>
+<div></div><br>
+<label for="last_name">Soyisim</label>
+<input style="margin-left: 11px;" type="text" id="last_name" name="last_name"required>
+<div></div><br>
+<label for="email">Email</label>
+<input style="margin-left: 25px;" type="email" id="email" name="email"required>
+<div></div><br>
+<label for="age">Yaş</label>
+<input style="margin-left: 40px;" type="number" id="age" name="age"required    min="15" max="70" minlength="15" maxlength="70">
+<div></div><br>
+
+<label for="text">Mesajınız</label>
+<textarea style="margin-left: 1px;"id="text" name="text" rows="4" cols="50"required></textarea>
+<div></div><br>
+
+<label for="vol">Sitemizi ne kadar beğendiniz? (0 ile 10 arasında bir değer veriniz):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+  <div></div><br>
+
+
+
+<input type="submit">
+<input type="reset">
+
+
+
+</form>
+
+</body>
+</html>
